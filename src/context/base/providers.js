@@ -1,8 +1,5 @@
-import { DashboardProvider, SignInProvider, SignUpProvider, SplashProvider } from 'context'
+import { DashboardProvider } from '../'
 
 export default [
-    SplashProvider,
-    SignInProvider,
-    SignUpProvider,
     DashboardProvider
 ]

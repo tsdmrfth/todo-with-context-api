@@ -1,7 +1,5 @@
 import React from 'react'
-import providers from 'context/base/providers'
-
-providers.reverse()
+import providers from './providers'
 
 export default ({ children }) => {
     let result = children
