@@ -1,3 +1,6 @@
 ## TODO app sample with React Context API.
 
+### Structure explanation
+##### In the [base](https://github.com/tsdmrfth/todo-with-context-api/tree/master/src/context/base) directory we have [AppProvider.js](https://github.com/tsdmrfth/todo-with-context-api/blob/master/src/context/base/AppProvider.js), [providers.js](https://github.com/tsdmrfth/todo-with-context-api/blob/master/src/context/base/providers.js) and [createDataContext.js](https://github.com/tsdmrfth/todo-with-context-api/blob/master/src/context/base/createDataContext.js) JavaScript files. AppProvider is a component that renders all providers which exported as an array in [providers.js](https://github.com/tsdmrfth/todo-with-context-api/blob/master/src/context/base/providers.js) and returns them. We use AppProvider in our App.js file as root component. [createDataContext.js](https://github.com/tsdmrfth/todo-with-context-api/blob/master/src/context/base/createDataContext.js) is a file for managing context logic and binding actions. Once we created a new context directory like [dashboard](https://github.com/tsdmrfth/todo-with-context-api/tree/master/src/context/dashboard) we should add provider of that context directory to providers.js file.
+
 ![Example project](https://github.com/tsdmrfth/todo-with-context-api/blob/master/gif/example.gif)
